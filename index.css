@@ -16,7 +16,20 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: 2s linear;
+}
 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
 
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    width: 8rem;
 
 }
