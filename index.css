@@ -30,6 +30,26 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    width: 8rem;
+    background: transparent;
+}
 
+
+html::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5rem;
+
+}
+body{
+    background: var(--bg);
+}
+
+.navbar{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: fixed;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left:0; right: 0;
 }
